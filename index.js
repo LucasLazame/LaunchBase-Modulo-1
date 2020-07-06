@@ -22,3 +22,37 @@ if (media > 5){
 }
 
 console.log(media)
+
+const alunos = [
+    {
+        nome:"Mayk",
+        nota:9.8
+    },
+    {
+        nome: "Lucas",
+        nota:10
+    },
+    {
+        nome: "Fulano",
+        nota:2
+    }        
+]
+
+const nomeDeAlunos = ["Lucas", "Mayk", "Fulano"]
+
+const aluno01 = {
+    nome: "Lucas",
+    nota: 9.8
+}
+
+const aluno02 = {
+    nome: "Diego",
+    nota: 10
+}
+
+const aluno03 = {
+    nome: "Fulano",
+    nota: 2
+}
+
+const media = (aluno01.nota + aluno02.nota + aluno03.nota)/3
